@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ImageDisplayComponent } from './image-display.component';
+import { StateComponent } from './state.component';
 
-describe('ImageDisplayComponent', () => {
-  let component: ImageDisplayComponent;
-  let fixture: ComponentFixture<ImageDisplayComponent>;
+describe('StateComponent', () => {
+  let component: StateComponent;
+  let fixture: ComponentFixture<StateComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ ImageDisplayComponent ]
+      declarations: [ StateComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ImageDisplayComponent);
+    fixture = TestBed.createComponent(StateComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
